@@ -1,0 +1,22 @@
+name = input('你叫什么？')
+print ('你好',  name)
+print('你多大了?')
+age = input()
+print(age ,'岁真的是太酷了！~~')
+test=input('开启智力测试之旅 yes or no？')
+if test=="yes" :
+    stage= input('请选择关卡...')
+    print('第' , stage , '关')
+    print('请问你爱我吗？')
+    print('请告诉我yes or no:')
+    result =input('')
+    key=str(result)
+    if result == "yes":
+    	print('我也爱你')
+    else:
+        print('一点儿都不好玩')
+        exit
+
+else:
+	print('我很失望，再见')
+	exit
